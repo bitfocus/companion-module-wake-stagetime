@@ -1,1 +1,33 @@
-{"name":"Wake Media StageTime","version":"1.0.0","license":"MIT","type":"commonjs","dependencies":{}}
+{
+  "name": "companion-module-wakemedia-stagetime",
+  "version": "1.0.0",
+  "description": "Control StageTime countdown timer app",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wakemedia/companion-module-wakemedia-stagetime.git"
+  },
+  "keywords": [
+    "companion",
+    "timer",
+    "countdown",
+    "stagetime"
+  ],
+  "author": "Wake Media",
+  "license": "MIT",
+  "dependencies": {
+    "@companion-module/base": "~1.11.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
